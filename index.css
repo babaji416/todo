@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: #24aefd;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+button{
+    padding: 15px;
+    margin: auto;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    
+}
+input{
+    border-radius: solid;
+    width: 75px;
+}
+.box{
+    border-radius: solid;
+}

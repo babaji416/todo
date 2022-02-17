@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo Application</title>
+    <title>Calculator</title>
 </head>
+    <h1>my Calculator</h1>
 <body>
-    <h1 align=center>welcome to todo</h1>
+    <div id="root"  class="box"><input type="text">
+        <input  type="text">
+    </div>
+    
+    <div>
+        <button onclick="mainMan('1')">1</button>
+        <button onclick="mainMan('2')">2</button>
+        <button onclick="mainMan('3')">3</button>
+        <button onclick="mainMan('*')">*</button>
+    </div>
+    <div>
+        <button onclick="mainMan('4')">4</button>
+        <button onclick="mainMan('5')">5</button>
+        <button onclick="mainMan('6')">6</button>
+        <button onclick="mainMan('/')">/</button>
+    </div>
+    <div>
+        <button onclick="mainMan('7')">7</button>
+        <button onclick="mainMan('8')">8</button>
+        <button onclick="mainMan('9')">9</button>
+        <button onclick="mainMan('+')">+</button>
+    </div>
+    <div>
+        <button onclick="mainMan('&')">&</button>
+        <button onclick="mainMan('0')">0</button>
+        <button onclick="mainMan('-')">-</button>
+        <button onclick="mainMan('=')">=</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
